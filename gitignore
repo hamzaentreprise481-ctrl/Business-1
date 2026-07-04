@@ -1,0 +1,28 @@
+# Dépendances
+node_modules/
+
+# Build
+dist/
+build/
+.vercel
+
+# Variables d'environnement (NE JAMAIS committer vos vraies clés)
+.env
+.env.local
+.env.production
+
+# Clés de service Firebase (NE JAMAIS committer ce fichier)
+serviceAccountKey.json
+firebase-adminsdk-*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
