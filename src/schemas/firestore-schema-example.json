@@ -1,0 +1,46 @@
+{
+  "stores": {
+    "str_001": {
+      "store_id": "str_001",
+      "name": "Nike Store Paris",
+      "brand": "Nike",
+      "commission_rate_fixed": 0.5,
+      "bank_account_id": "acct_stripe_connect_xxx",
+      "address": "12 rue de Rivoli, Paris",
+      "created_at": "timestamp"
+    }
+  },
+  "items": {
+    "itm_001": {
+      "item_id": "itm_001",
+      "store_id": "str_001",
+      "name": "Sneakers Nike Air Max 90",
+      "brand": "Nike",
+      "size": "42",
+      "initial_cycles": 10,
+      "current_cycles": 7,
+      "rental_price": 5.0,
+      "deposit_amount": 80.0,
+      "status": "DISPONIBLE",
+      "photos": ["url1", "url2"],
+      "created_at": "timestamp",
+      "updated_at": "timestamp"
+    }
+  },
+  "rentals": {
+    "rnt_001": {
+      "rental_id": "rnt_001",
+      "user_id": "usr_001",
+      "item_id": "itm_001",
+      "store_id": "str_001",
+      "start_date": "timestamp",
+      "end_date": "timestamp",
+      "rental_price_paid": 5.0,
+      "deposit_stripe_payment_intent_id": "pi_xxx",
+      "deposit_status": "HELD",
+      "return_status": "EN_COURS",
+      "commission_platform": 0.5,
+      "created_at": "timestamp"
+    }
+  }
+}
