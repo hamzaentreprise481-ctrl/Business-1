@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/checkOverdueRentals",
+      "schedule": "0 3 * * *"
+    }
+  ]
+}
